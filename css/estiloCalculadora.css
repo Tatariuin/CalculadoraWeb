@@ -1,0 +1,54 @@
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#calculadora{
+    width: 260px;
+    height: 350px;
+    background-color: lightgreen;
+    padding: 20px;
+    border-radius: 10%;
+}
+#tela{
+    width: 252px;
+    height: 40px;
+    text-align: center;
+    border-radius: 30px;
+}
+#bts{
+    border: 2px solid gray;
+    border-radius: 20px;
+    height: 300px;
+    width: 100%;
+    margin-top: 10px;
+}
+button{
+    margin-left: 12px;
+    margin-top: 10px;
+    
+}
+.nums{
+    height: 35px;
+    width: 50px;
+    border-radius: 10px;
+    border:none;
+    float: left;
+    background-color: lightcoral;
+}
+.op{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;  
+    border: none; 
+    font-size: 15px; 
+    float: left;
+    margin-left: 12px;
+    background-color: lightslategray;
+}
+#mais{
+    height: 80px;
+    float: right;
+    margin-right: 22px;
+    border-radius: 15px;
+}

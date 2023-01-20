@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/estiloCalculadora.css">
+    <link rel="icon" href="img/calculadora.png">
+</head>
+<body>
+    <div id="container">
+        <div id="calculadora">
+            <input type="text" id="tela">
+            <div id="bts">
+                <button class="nums" onclick="limpaCampoCaracter()">C</button>
+                <button class="nums" onclick="limpaCampoFull()">CE</button>
+                <button class="nums" onclick="setText('%')">%</button>
+                <button class="op" onclick="setText('÷')">÷</button> <br>
+                <button class="nums" onclick="setText('7')">7</button>
+                <button class="nums" onclick="setText('8')">8</button>
+                <button class="nums" onclick="setText('9')">9</button>
+                <button class="op" onclick="setText('x')">x</button> <br>
+                <button class="nums" onclick="setText('4')">4</button>
+                <button class="nums" onclick="setText('5')">5</button>
+                <button class="nums" onclick="setText('6')">6</button>
+                <button class="op" onclick="setText('-')">-</button> <br>
+                <button class="nums" onclick="setText('1')">1</button>
+                <button class="nums" onclick="setText('2')">2</button>
+                <button class="nums" onclick="setText('3')">3</button>
+                <button class="op" id="mais" onclick="setText('+')">+</button>
+                <button class="nums" onclick="setText('.')">.</button>
+                <button class="nums" onclick="setText('0')">0</button>
+                <button class="nums" onclick="calculaOperacao()">=</button>
+                
+            </div>
+        </div>
+    </div>
+    <audio id="audio1" src="audio/onlymp3.to - Button click sound  sound effect-kgf11U-GFPo-192k-1656218943420.mp3" ></audio>
+    <script src="js/compCalculadora.js"></script>
+</body>
+</html>
